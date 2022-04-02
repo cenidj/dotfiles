@@ -1,0 +1,24 @@
+[user]
+	email = ing.cesarionivar@gmail.com
+	name = Cesario Nivar
+[alias]
+	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+	s = status -sb
+	last = log -1 HEAD
+	c = commit 
+	cb = checkout -b
+	undo = reset --soft HEAD^
+	rank = shortlog -sn --no-merges
+	fresh = !git reset --hard HEAD && git clean -fd
+	alias = config --get-regexp ^alias\\.
+	branches = branch --format='%(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+	ch = checkout
+	comit = commit
+	m = merge
+
+[core]
+	autocrlf = false
+	fscache = true
+	symlinks = true
+	safecrlf = false
+	editor = code --wait
