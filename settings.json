@@ -1,12 +1,8 @@
 {
-  "workbench.colorTheme": "Tokyo Night AltSynt",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.languageDetection": true,
-  "workbench.colorCustomizations": {
-    "editorOverviewRuler.background": "#1d1f2d",
-    "editorCursor.foreground": "#1e95eb"
-  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -226,5 +222,6 @@
       "codicon": "kebab-vertical"
     }
   ],
-  "cSpell.language": "en,es-ES"
+  "cSpell.language": "en,es-ES",
+  "cSpell.enabled": false
 }
